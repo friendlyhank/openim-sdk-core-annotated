@@ -11,6 +11,9 @@ import (
 
 // Test_SendMessage - 测试发送消息
 func Test_SendMessage(t *testing.T) {
-	open_im_sdk.UserForSDK.Conversation().CreateTextMessage(ctx, "textMsg")
-	_, err := open_im_sdk.UserForSDK.Conversation().SendMessage()
+	msg, _ := open_im_sdk.UserForSDK.Conversation().CreateTextMessage(ctx, "textMsg")
+	_, err := open_im_sdk.UserForSDK.Conversation().SendMessage(ctx, msg)
+	if err != nil {
+		t.Fatal(err)
+	}
 }

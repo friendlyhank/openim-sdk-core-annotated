@@ -28,7 +28,7 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	isInit := open_im_sdk.InitSDK()
+	isInit := open_im_sdk.InitSDK("test", string(configData))
 	if !isInit {
 		panic("init sdk failed")
 	}
@@ -38,7 +38,9 @@ func init() {
 	if err != nil {
 		panic(err)
 	}
-	fmt.Println(token)
+	if err := open_im_sdk.UserForSDK.Login(ctx, UserID, token); err != nil {
+		panic(err)
+	}
 }
 
 // GetUserToken - 获取用户token
