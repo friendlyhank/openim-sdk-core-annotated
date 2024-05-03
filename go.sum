@@ -1,0 +1,6 @@
+github.com/OpenIMSDK/protocol v0.0.40 h1:1/Oij6RSAaePCPrWGwp9Cyz976/8Uxr94hM5M5FXzlg=
+github.com/OpenIMSDK/protocol v0.0.40/go.mod h1:F25dFrwrIx3lkNoiuf6FkCfxuwf8L4Z8UIsdTHP/r0Y=
+github.com/OpenIMSDK/tools v0.0.24 h1:P8n7ZtsZEbm4W3dQAem29O+bigzy6YPXxFzd/D8Vh3U=
+github.com/OpenIMSDK/tools v0.0.24/go.mod h1:eg+q4A34Qmu73xkY0mt37FHGMCMfC6CtmOnm0kFEGFI=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
